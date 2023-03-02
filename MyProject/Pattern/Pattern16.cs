@@ -12,22 +12,25 @@ namespace MyProject.Pattern
 
         static void Main(string[] args)
         {
+            int n = 1;
             for (int i = 1; i <= 7; i++)
             {
-                for (int j = 1; j <= i; j++)
+                for(int k=i;k<7;k++)
                 {
-                    if (i%2!=0)
+                    Console.Write(" ");
+                }
+                for (int j = 1; j <= n; j++)
+                {
+                
                     {
-                        Console.Write(i);
+                        Console.Write(i+" ");
                     }
                     
-                    else
-                    {
-                        Console.Write(" ");
-                    }
+                   
 
 
                 }
+                n=n+2;
                 Console.WriteLine(  );
             }
         }
