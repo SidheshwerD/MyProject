@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace MyProject.OOPDemo
 {
-    internal class MethodOverload
+    internal class MethodOverLoad
     {
-        public void  Calculate()
+        public void Calculate()
         {
             Console.WriteLine("Calculate");
         }
@@ -24,9 +24,14 @@ namespace MyProject.OOPDemo
         {
             return 0;
         }
-        public void Main(string[] args)
+        public void Calculate(int x, int y, int z)
         {
-            MethodOverload m = new MethodOverload();
+
+        }
+
+        static void Main(string[] args)
+        {
+            MethodOverLoad m = new MethodOverLoad();
             m.Calculate(2, 3);
             m.Calculate(1, 2.3f);
             m.Calculate();

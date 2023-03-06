@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-	  <StartupObject>MyProject.OOPDemo.MethodOverload</StartupObject>
+	  <StartupObject>MyProject.Inheritance.MultiLevelDemo</StartupObject>
 	  <ImplicitUsings>enable</ImplicitUsings>
 	
     <Nullable></Nullable>
